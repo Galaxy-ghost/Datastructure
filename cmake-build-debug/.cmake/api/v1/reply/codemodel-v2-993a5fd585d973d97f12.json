@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1-1seqList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-1seqList-Debug-df73b0bd041b0f70ca88.json",
+					"name" : "1-1seqList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1-2linkList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-2linkList-Debug-8748e3f3d3015f279b82.json",
+					"name" : "1-2linkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1-3stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-3stack-Debug-f5bc78e106d231a81d87.json",
+					"name" : "1-3stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1-4queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-4queue-Debug-29edbe56d7b3b5c000a9.json",
+					"name" : "1-4queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2-1binaryTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-1binaryTree-Debug-b2cdf2930ab147f33a4b.json",
+					"name" : "2-1binaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2-2threaderTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-2threaderTree-Debug-8e2313b826e361d07b6a.json",
+					"name" : "2-2threaderTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DataStructure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataStructure-Debug-3f811872931732e1fac5.json",
+					"name" : "DataStructure",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug",
+		"source" : "/Users/galaxy./Desktop/code/DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

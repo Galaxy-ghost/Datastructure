@@ -1,0 +1,24 @@
+# ninja log v5
+82	161	1673754754793647870	1-4queue	143de6d09a08e4f0
+6	2677	1673496762686695211	CMakeFiles/1-3stack.dir/01.linear/03.stack/arrayStack.c.o	8876e89619a89f3d
+85	157	1675942503402550792	2-1binaryTree	5e9de819311df9a0
+2	82	1673754754714400789	CMakeFiles/1-4queue.dir/01.linear/04.queue/main.c.o	917b5d4a713798c
+2	85	1675942503329519003	CMakeFiles/2-1binaryTree.dir/02.TreeStruct/01.binaryTree/binaryTree.c.o	8331836b89084c5f
+6	596	1675942463729981910	CMakeFiles/2-1binaryTree.dir/02.TreeStruct/01.binaryTree/arrayQueue.c.o	bece3fd3f7d8104a
+3	119	1673497029790115888	CMakeFiles/1-3stack.dir/01.linear/03.stack/linkStack.c.o	574083de862cdd5e
+509	626	1673423501954649389	1-2linkList	19794ca6781acbe7
+2	104	1673496922059862523	CMakeFiles/1-3stack.dir/01.linear/03.stack/main.c.o	5c2200cb160718d3
+3	509	1673423501832667327	CMakeFiles/1-2linkList.dir/01.linear/02.linkList/linkList.c.o	6fa7a6a48c609af6
+2	81	1675942503323730664	CMakeFiles/2-1binaryTree.dir/02.TreeStruct/01.binaryTree/arrayStack.c.o	6217624e0a333c7
+5	503	1673324693771117469	CMakeFiles/1-1seqList.dir/01.linear/01.seqList/sqList.c.o	343e737ea125ac9a
+3	598	1673754560913982517	CMakeFiles/1-4queue.dir/01.linear/04.queue/linkQueue.c.o	2c1748236e8c9ef4
+6	502	1673324693770692700	CMakeFiles/1-1seqList.dir/01.linear/01.seqList/main.c.o	7f1a08dd82ab9c3d
+1	162	1680748263596196522	build.ninja	a60df1c191bd4801
+2	74	1675673346311781045	CMakeFiles/2-2threaderTree.dir/02.TreeStruct/02.threadedTree/main.c.o	442d7bc47a0fc932
+120	212	1673497029889072152	1-3stack	cbea750e949b14d7
+7	596	1675942463729972123	CMakeFiles/2-1binaryTree.dir/02.TreeStruct/01.binaryTree/main.c.o	15b05d89dfdd0e86
+1	580	1673707076928937133	CMakeFiles/1-4queue.dir/01.linear/04.queue/arrayQueue.c.o	b3d85466608b9700
+3	509	1673423501832659645	CMakeFiles/1-2linkList.dir/01.linear/02.linkList/main.c.o	8c94809f6cfbea55
+503	583	1673324693856017682	1-1seqList	c87a243dd9a26613
+3	632	1675675763434318757	CMakeFiles/2-2threaderTree.dir/02.TreeStruct/02.threadedTree/threadedBTree.c.o	a22943c5faa2ed59
+632	714	1675675763521666254	2-2threaderTree	e81231ed34770ad0

@@ -1,0 +1,9 @@
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/1-1seqList.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/1-2linkList.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/1-3stack.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/1-4queue.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-1binaryTree.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-2threaderTree.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
