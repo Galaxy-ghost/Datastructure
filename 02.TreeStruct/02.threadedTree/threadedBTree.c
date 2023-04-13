@@ -84,7 +84,8 @@ void visitTBTNode(TBTNode *node) {
     }
 }
 
-static TBTNode *pre = NULL;
+
+static TBTNode *pre = NULL; // 用两个指针来构建线索二叉树，这是前驱指针
 static void inOrderThreading(TBTNode *node) {
     if (node) {
         inOrderThreading(node->left);
