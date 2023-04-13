@@ -53,56 +53,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "1-1seqList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1-1seqList-Debug-df73b0bd041b0f70ca88.json",
+					"jsonFile" : "target-1-1seqList-Debug-c80960a803f9d8306dd8.json",
 					"name" : "1-1seqList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "1-2linkList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1-2linkList-Debug-c37e26d7b6f249dd1651.json",
+					"jsonFile" : "target-1-2linkList-Debug-218157437429b3841a01.json",
 					"name" : "1-2linkList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "1-3stack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1-3stack-Debug-910b990b8a1cd75dfe82.json",
+					"jsonFile" : "target-1-3stack-Debug-9fd6024a2c79728843d5.json",
 					"name" : "1-3stack",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "1-4queue::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1-4queue-Debug-cc501ceb090eb2b8c9fc.json",
+					"jsonFile" : "target-1-4queue-Debug-7bc520ccee74f56a43f3.json",
 					"name" : "1-4queue",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "2-1binaryTree::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2-1binaryTree-Debug-72cce9f349d303fdfc0f.json",
+					"jsonFile" : "target-2-1binaryTree-Debug-d3f857b4af0828f2dc85.json",
 					"name" : "2-1binaryTree",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "2-2threaderTree::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2-2threaderTree-Debug-3b5985428701f72df037.json",
+					"jsonFile" : "target-2-2threaderTree-Debug-3fbbb4672ab758f8f898.json",
 					"name" : "2-2threaderTree",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "2-3binarySearchTree::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2-3binarySearchTree-Debug-0ab481414d4f95fb9c2d.json",
+					"jsonFile" : "target-2-3binarySearchTree-Debug-01268dd291896b70e360.json",
 					"name" : "2-3binarySearchTree",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "DataStructure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DataStructure-Debug-3f811872931732e1fac5.json",
+					"jsonFile" : "target-DataStructure-Debug-b65018ad77c0a4d7f991.json",
 					"name" : "DataStructure",
 					"projectIndex" : 0
 				}
@@ -118,6 +118,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }
