@@ -120,3 +120,70 @@ void inOrderBSTree(BSTree *tree){
     inOrder(tree->root);
     } 
 }
+
+static void deleteMinNode(BSNode *node) {
+    // 即找到节点的右子树的节点的最小值，并将它交换位置
+    BSNode *mini = node->right;
+    BSNode *pre = node;
+    while (mini && mini->left) {
+        pre = mini;
+        mini = mini->left;
+    }
+    // 此时的mini节点一定指向了右子树的最小节点
+    node->data = mini->data;
+    if (pre->data == node->data) { // 说明最小值的节点就在node的right
+        pre->right = mini->right;
+    } else {
+        pre->left = mini->right;
+    }
+    free(mini);
+}
+
+/* 1. 首先先找到待删除的节点，还需要一个pre指针指向待删除节点的前驱节点
+*  2. 判断node的度的情况，根据度的情况进行不同的处理
+*/
+void deleteBSTreeNoRecur(BSTree *tree, Element e) {
+    BSNode *node = tree->root;
+    BSNode *pre = NULL;
+
+    while (node) {
+        if (node->data < e) {
+            pre = node;
+            node = node->right;
+        } else if (node->data > e) {
+            pre = node;
+            node = node->left;
+        }else {
+            break;
+        } 
+    }
+    // 经过上述操作，node指向的就是值为e的节点或是空节点
+    // 空节点有两种情况，一种是树中没有元素，另一种是没有找到该元素，这两种情况我们都不用进行操作
+    // 接下来要判断节点的度
+    BSNode *tmp = NULL;
+    if (pre && node) { // 找到了node节点且不是根节点
+        if (node->left == NULL) {
+            tmp = node->right;
+        } else if (node->right == NULL) {
+            tmp = node->left;
+        } else { // 度为2的情况
+            // 这里采用的方式是寻找node节点的后继节点，然后将后继节点与该节点进行交换
+            deleteMinNode(node);
+            tree->count--;
+            return;
+        }
+
+        if (node->data > pre->data) {
+            pre->right = tmp;
+        } else {
+            pre->left = tmp;
+        }
+        free(node);
+        tree->count --;
+        return ;
+    }
+    if (pre == NULL && node) {
+        deleteMinNode(node);
+        tree->count--;
+    }
+}

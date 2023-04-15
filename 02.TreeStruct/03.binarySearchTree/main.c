@@ -80,8 +80,30 @@ void test02() {
     free(data);
 }
 
+void test03() {
+    BSTree * tree = createBSTree();
+    Element data[] = {98, 43, 76, 144, 245, 8};
+
+    if (tree == NULL) {
+        return ;
+    }
+
+    for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++) {
+        insertBSTreeNoRecur(tree, data[i]);
+    }
+
+    printf("二分搜索树的中序遍历为：");
+    inOrderBSTree(tree);
+
+    deleteBSTreeNoRecur(tree, 76);
+    
+    printf("\n二分搜索树的中序遍历为：");
+    inOrderBSTree(tree);
+
+    releaseBSTree(tree);
+}
 
 int main() {
-    test02();
+    test03();
     return 0;
 }
