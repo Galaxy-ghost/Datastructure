@@ -17,7 +17,8 @@ void test01() {
     }
 
     for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++) {
-        insertBSTreeNoRecur(tree, data[i]);
+//        insertBSTreeNoRecur(tree, data[i]);
+        insertBSTreeRecur(tree, data[i]);
     }
 
     printf("二分搜索树的中序遍历为：");
@@ -104,6 +105,6 @@ void test03() {
 }
 
 int main() {
-    test03();
+    test01();
     return 0;
 }

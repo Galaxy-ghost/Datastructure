@@ -187,3 +187,25 @@ void deleteBSTreeNoRecur(BSTree *tree, Element e) {
         tree->count--;
     }
 }
+
+static BSNode *insertBSNodeRecur(BSTree *tree, BSNode *node, Element e) {
+    if (node == NULL) {
+        return createBNode(e);
+    }
+    if (e < node->data) {
+       node->left = insertBSNodeRecur(tree, node->left, e); 
+    } else if (e > node->data) {
+        node->right = insertBSNodeRecur(tree, node->right, e);
+    }
+    
+    return node;
+}
+
+void insertBSTreeRecur(BSTree *tree, Element e) {
+    tree->root = insertBSNodeRecur(tree, tree->root, e);
+}
+
+
+int getBSNodeDepth(BSNode *node) {
+    
+}
