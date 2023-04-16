@@ -42,3 +42,8 @@
 11	614	1681574613342845941	CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/03.binarySearchTree/BSearchTree.c.o	cb8b21e299dad26d
 12	640	1681574613370801287	CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/03.binarySearchTree/main.c.o	d19a5cda71ca6f9b
 640	782	1681574613517574587	2-3binarySearchTree	64a2b1c4c122619c
+3	663	1681649071202443691	CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/03.binarySearchTree/BSearchTree.c.o	cb8b21e299dad26d
+5	689	1681649071234112115	CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/03.binarySearchTree/main.c.o	d19a5cda71ca6f9b
+689	851	1681649071393743184	2-3binarySearchTree	64a2b1c4c122619c
+3	114	1681649085923834382	CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/03.binarySearchTree/main.c.o	d19a5cda71ca6f9b
+114	198	1681649086007702206	2-3binarySearchTree	64a2b1c4c122619c

@@ -207,5 +207,63 @@ void insertBSTreeRecur(BSTree *tree, Element e) {
 
 
 int getBSNodeDepth(BSNode *node) {
-    
+     if (node == NULL) {
+        return 0;
+    }   
+    int leftHeight = getBSNodeDepth(node->left);
+    int rightHeight = getBSNodeDepth(node->right);
+
+    if (leftHeight > rightHeight) {
+        return ++leftHeight;
+    } else {
+        return ++rightHeight;
+    }
 }
+
+// 找到以node为根节点的子树中最小值的节点
+static BSNode *MinValueBSNode(BSNode *node) {
+    while (node && node->left) {
+        node = node->left;
+    }
+    return node;
+} 
+
+
+static BSNode *deleteBSNode(BSTree *tree, BSNode *node, Element e) {
+    if (node == NULL) {
+        return NULL;
+    }
+    if (e < node->data) {
+        node->left = deleteBSNode(tree, node->left, e);
+    } else if (e > node->data) {
+        node->right = deleteBSNode(tree, node->right, e);
+    } else { // 这时候已经找到了要删除的节点
+       // 与非递归方式一样，要判断度的数量来进行删除节点
+        BSNode *tmp;
+        if (node->left == NULL) {
+            tmp = node->right;
+            tree->count--;
+            free(node);
+            return tmp;
+        } else if (node->right == NULL) {
+            // 与之前非递归方式的分析类似，不管是度为1还是度为0，只要知道其中一个孩子为空
+            // 则直接删除节点，并将另一个孩子赋值给前驱节点
+            tmp = node->left;
+            tree->count--;
+            free(node);
+            return tmp;
+        } else { // 这是度为2的情况，这时候要删除右孩子中的最小值的节点
+            tmp = MinValueBSNode(node->right);
+            node->data = tmp->data;
+            deleteBSNode(tree, node->right, tmp->data);
+        }
+    }
+    return node;
+}
+
+void deleteBSTreeRecur(BSTree *tree, Element e) {
+    if (tree) {
+        tree->root = deleteBSNode(tree, tree->root, e);
+    }
+}
+

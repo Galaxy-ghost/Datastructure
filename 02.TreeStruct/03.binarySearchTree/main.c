@@ -90,21 +90,22 @@ void test03() {
     }
 
     for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++) {
-        insertBSTreeNoRecur(tree, data[i]);
+        insertBSTreeRecur(tree, data[i]);
     }
 
     printf("二分搜索树的中序遍历为：");
     inOrderBSTree(tree);
 
-    deleteBSTreeNoRecur(tree, 76);
+    deleteBSTreeRecur(tree, 76);
     
     printf("\n二分搜索树的中序遍历为：");
     inOrderBSTree(tree);
 
+    printf("\n树的高度为：%d", getBSNodeDepth(tree->root));
     releaseBSTree(tree);
 }
 
 int main() {
-    test01();
+    test03();
     return 0;
 }
