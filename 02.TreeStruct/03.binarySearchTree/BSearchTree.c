@@ -190,6 +190,7 @@ void deleteBSTreeNoRecur(BSTree *tree, Element e) {
 
 static BSNode *insertBSNodeRecur(BSTree *tree, BSNode *node, Element e) {
     if (node == NULL) {
+        tree->count++;
         return createBNode(e);
     }
     if (e < node->data) {

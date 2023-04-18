@@ -27,3 +27,6 @@ add_executable(2-2threaderTree 02.TreeStruct/02.threadedTree/threadedBTree.c 02.
 
 # 二叉搜索树
 add_executable(2-3binarySearchTree 02.TreeStruct/03.binarySearchTree/BSearchTree.c 02.TreeStruct/03.binarySearchTree/BSearchTree.h 02.TreeStruct/03.binarySearchTree/main.c)
+
+# AVL树
+add_executable(2-4AVLTree 02.TreeStruct/04.AVLTree/avlTree.c 02.TreeStruct/04.AVLTree/avlTree.h 02.TreeStruct/04.AVLTree/main.c)
