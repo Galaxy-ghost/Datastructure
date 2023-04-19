@@ -30,3 +30,7 @@ add_executable(2-3binarySearchTree 02.TreeStruct/03.binarySearchTree/BSearchTree
 
 # AVL树
 add_executable(2-4AVLTree 02.TreeStruct/04.AVLTree/avlTree.c 02.TreeStruct/04.AVLTree/avlTree.h 02.TreeStruct/04.AVLTree/main.c)
+
+# 并查集
+add_executable(2-5UnionFindSet 02.TreeStruct/05.UnionFindSet/quickFindSet.c 02.TreeStruct/05.UnionFindSet/quickFindSet.h
+                02.TreeStruct/05.UnionFindSet/quickUnionSet.c 02.TreeStruct/05.UnionFindSet/quickUnionSet.h 02.TreeStruct/05.UnionFindSet/main.c)

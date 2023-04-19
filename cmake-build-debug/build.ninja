@@ -394,6 +394,49 @@ build 2-4AVLTree: C_EXECUTABLE_LINKER__2-4AVLTree_Debug CMakeFiles/2-4AVLTree.di
   TARGET_FILE = 2-4AVLTree
   TARGET_PDB = 2-4AVLTree.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-5UnionFindSet
+
+
+#############################################
+# Order-only phony target for 2-5UnionFindSet
+
+build cmake_object_order_depends_target_2-5UnionFindSet: phony || CMakeFiles/2-5UnionFindSet.dir
+
+build CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickFindSet.c.o: C_COMPILER__2-5UnionFindSet_Debug /Users/galaxy./Desktop/code/DataStructure/02.TreeStruct/05.UnionFindSet/quickFindSet.c || cmake_object_order_depends_target_2-5UnionFindSet
+  DEP_FILE = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickFindSet.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-5UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet
+
+build CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickUnionSet.c.o: C_COMPILER__2-5UnionFindSet_Debug /Users/galaxy./Desktop/code/DataStructure/02.TreeStruct/05.UnionFindSet/quickUnionSet.c || cmake_object_order_depends_target_2-5UnionFindSet
+  DEP_FILE = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickUnionSet.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-5UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet
+
+build CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/main.c.o: C_COMPILER__2-5UnionFindSet_Debug /Users/galaxy./Desktop/code/DataStructure/02.TreeStruct/05.UnionFindSet/main.c || cmake_object_order_depends_target_2-5UnionFindSet
+  DEP_FILE = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-5UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-5UnionFindSet
+
+
+#############################################
+# Link the executable 2-5UnionFindSet
+
+build 2-5UnionFindSet: C_EXECUTABLE_LINKER__2-5UnionFindSet_Debug CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickFindSet.c.o CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/quickUnionSet.c.o CMakeFiles/2-5UnionFindSet.dir/02.TreeStruct/05.UnionFindSet/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/2-5UnionFindSet.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-5UnionFindSet
+  TARGET_PDB = 2-5UnionFindSet.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -429,7 +472,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug
 
-build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree
+build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet
 
 # =============================================================================
 # Built-in targets
