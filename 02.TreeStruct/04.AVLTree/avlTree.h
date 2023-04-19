@@ -29,5 +29,7 @@ void inOrderAVLTree(AVLTree *tree); // 中序遍历平衡二叉树
 
 // 插入元素到AVLTree
 void insertAVLTree(AVLTree *tree, Element e);
+// 从AVLTree中删除元素
+void deleteAVLTree(AVLTree *tree, Element e);
 
 #endif //DATASTRUCTURE_AVLTREE_H

@@ -20,7 +20,10 @@ void test01(){
     printf("树的中序遍历为：");
     inOrderAVLTree(tree);
     printf("\n平衡二叉树的高度为:%d\n", tree->root->height);
-
+    
+    deleteAVLTree(tree, 13);
+    printf("树的中序遍历为：");
+    inOrderAVLTree(tree);
     releaseAVLTree(tree);
     return ;
 }
