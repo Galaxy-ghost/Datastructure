@@ -56,7 +56,8 @@ static int findQUIndex(QuickUnionSet *setQU, Element e) {
     return -1;
 }
 
-static int findRootIndex(QuickUnionSet *setQU, Element e) {
+// 普通的查找算法，没有进行路径压缩，查找父节点的时候要挨个查找
+static int findRootIndexNormal(QuickUnionSet *setQU, Element e) {
     // 找e的父亲，再找这个父亲的父亲，直到发现父亲的父亲是自己，那就是根了
     int curIndex = findIndex(setQU, e);		// 如果为-1 补
     // 向上遍历
@@ -66,6 +67,49 @@ static int findRootIndex(QuickUnionSet *setQU, Element e) {
     return curIndex;
 }
 
+// 入栈操作
+static SetNode *push(SetNode *stack, int index) {
+    SetNode *node = (SetNode *)malloc(sizeof (SetNode));
+    if (node == NULL) {
+        return NULL;
+    }
+    node->index = index;
+    node->next = stack;
+    return node;
+}
+
+// 出栈操作
+static SetNode *pop(SetNode *stack, int *index) {
+    SetNode *tmp = stack;
+    *index = stack->index;
+    stack = stack->next;
+    free(tmp);
+    return stack;
+}
+
+// 带路径压缩的查找算法，在查找祖先节点的路径上，将所有节点的父节点全部指向其祖先节点
+// 这里使用的是非递归写法，即使用栈结构
+static int findRootIndex(QuickUnionSet *setQU, Element e) {
+    // 找e的父亲，再找这个父亲的父亲，直到发现父亲的父亲是自己，那就是根了
+    int curIndex = findIndex(setQU, e);
+    if (curIndex == -1) {
+        return -1;
+    }
+    SetNode *path = NULL;
+    while (setQU->parent[curIndex] != curIndex) {
+        path = push(path, curIndex);
+        curIndex = setQU->parent[curIndex];			// 将父节点ID作为下一个寻找的ID号
+    }
+
+    while (path) {
+        int pos;
+        path = pop(path, &pos);
+        setQU->parent[pos] = curIndex;
+    }
+    return curIndex;
+
+}
+ 
 int isSameQU(QuickUnionSet *setQU, Element a, Element b) {
     int aRoot = findRootIndex(setQU, a);
     int bRoot = findRootIndex(setQU, b);

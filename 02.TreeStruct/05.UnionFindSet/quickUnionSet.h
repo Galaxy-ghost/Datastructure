@@ -16,6 +16,12 @@ typedef struct {
     int *size; // 实际工程中size优化和rank优化最终与不优化区别不大，取其一即可
 }QuickUnionSet;
 
+// 路径压缩中使用的栈
+typedef struct setNode {
+    int index; // 存储的是在并查集中的index
+    struct setNode *next;
+}SetNode;
+
 QuickUnionSet *createQuickUnionSet(int n); // 创建一个数量为n的并查集
 void releaseQuickUnionSet(QuickUnionSet *setQU); // 释放一个并查集
 void initQuickUnionSet(QuickUnionSet *setQU, const Element *data, int n);  // 初始化一个并查集
