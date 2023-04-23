@@ -437,6 +437,43 @@ build 2-5UnionFindSet: C_EXECUTABLE_LINKER__2-5UnionFindSet_Debug CMakeFiles/2-5
   TARGET_FILE = 2-5UnionFindSet
   TARGET_PDB = 2-5UnionFindSet.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-6HuffmanTree
+
+
+#############################################
+# Order-only phony target for 2-6HuffmanTree
+
+build cmake_object_order_depends_target_2-6HuffmanTree: phony || CMakeFiles/2-6HuffmanTree.dir
+
+build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/huffmanTree.c.o: C_COMPILER__2-6HuffmanTree_Debug /Users/galaxy./Desktop/code/DataStructure/02.TreeStruct/06.HuffmanTree/huffmanTree.c || cmake_object_order_depends_target_2-6HuffmanTree
+  DEP_FILE = CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/huffmanTree.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-6HuffmanTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree
+
+build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/main.c.o: C_COMPILER__2-6HuffmanTree_Debug /Users/galaxy./Desktop/code/DataStructure/02.TreeStruct/06.HuffmanTree/main.c || cmake_object_order_depends_target_2-6HuffmanTree
+  DEP_FILE = CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-6HuffmanTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-6HuffmanTree
+
+
+#############################################
+# Link the executable 2-6HuffmanTree
+
+build 2-6HuffmanTree: C_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/huffmanTree.c.o CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/06.HuffmanTree/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/2-6HuffmanTree.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-6HuffmanTree
+  TARGET_PDB = 2-6HuffmanTree.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -472,7 +509,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug
 
-build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet
+build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree
 
 # =============================================================================
 # Built-in targets

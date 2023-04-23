@@ -8,5 +8,6 @@
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-3binarySearchTree.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-4AVLTree.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-5UnionFindSet.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-6HuffmanTree.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
