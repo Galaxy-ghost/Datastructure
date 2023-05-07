@@ -38,3 +38,9 @@ add_executable(2-5UnionFindSet 02.TreeStruct/05.UnionFindSet/quickFindSet.c 02.T
 # 哈夫曼树
 add_executable(2-6HuffmanTree 02.TreeStruct/06.HuffmanTree/huffmanTree.c 02.TreeStruct/06.HuffmanTree/huffmanTree.h
                 02.TreeStruct/06.HuffmanTree/main.c)
+
+# 图的邻接矩阵存储方式
+add_executable(3-1MatrixGraph 03.Graph/01.MatrixGraph/matrixGraph.c 03.Graph/01.MatrixGraph/matrixGraph.h 03.Graph/01.MatrixGraph/main.c)
+
+# 图的邻接表存储方式
+add_executable(3-2AdjacentList 03.Graph/02.AdjacentList/adjacentList.c 03.Graph/02.AdjacentList/adjacentList.h 03.Graph/02.AdjacentList/main.c)

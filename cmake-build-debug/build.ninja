@@ -474,6 +474,80 @@ build 2-6HuffmanTree: C_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles/2-6Hu
   TARGET_FILE = 2-6HuffmanTree
   TARGET_PDB = 2-6HuffmanTree.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-1MatrixGraph
+
+
+#############################################
+# Order-only phony target for 3-1MatrixGraph
+
+build cmake_object_order_depends_target_3-1MatrixGraph: phony || CMakeFiles/3-1MatrixGraph.dir
+
+build CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o: C_COMPILER__3-1MatrixGraph_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/01.MatrixGraph/matrixGraph.c || cmake_object_order_depends_target_3-1MatrixGraph
+  DEP_FILE = CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-1MatrixGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph
+
+build CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/main.c.o: C_COMPILER__3-1MatrixGraph_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/01.MatrixGraph/main.c || cmake_object_order_depends_target_3-1MatrixGraph
+  DEP_FILE = CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-1MatrixGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-1MatrixGraph
+
+
+#############################################
+# Link the executable 3-1MatrixGraph
+
+build 3-1MatrixGraph: C_EXECUTABLE_LINKER__3-1MatrixGraph_Debug CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/3-1MatrixGraph.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-1MatrixGraph
+  TARGET_PDB = 3-1MatrixGraph.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-2AdjacentList
+
+
+#############################################
+# Order-only phony target for 3-2AdjacentList
+
+build cmake_object_order_depends_target_3-2AdjacentList: phony || CMakeFiles/3-2AdjacentList.dir
+
+build CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/adjacentList.c.o: C_COMPILER__3-2AdjacentList_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/02.AdjacentList/adjacentList.c || cmake_object_order_depends_target_3-2AdjacentList
+  DEP_FILE = CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/adjacentList.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-2AdjacentList.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList
+
+build CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/main.c.o: C_COMPILER__3-2AdjacentList_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/02.AdjacentList/main.c || cmake_object_order_depends_target_3-2AdjacentList
+  DEP_FILE = CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-2AdjacentList.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-2AdjacentList
+
+
+#############################################
+# Link the executable 3-2AdjacentList
+
+build 3-2AdjacentList: C_EXECUTABLE_LINKER__3-2AdjacentList_Debug CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/adjacentList.c.o CMakeFiles/3-2AdjacentList.dir/03.Graph/02.AdjacentList/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/3-2AdjacentList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-2AdjacentList
+  TARGET_PDB = 3-2AdjacentList.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -509,7 +583,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug
 
-build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree
+build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree 3-1MatrixGraph 3-2AdjacentList
 
 # =============================================================================
 # Built-in targets

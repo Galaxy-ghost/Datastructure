@@ -1,0 +1,7 @@
+#ifndef DATASTRUCTURE_GRAPHBASE_H
+#define DATASTRUCTURE_GRAPHBASE_H
+#define MaxNodeNum 10
+#define INF 0x3f3f3f3f
+
+#endif //DATASTRUCTURE_GRAPHBASE_H
+
