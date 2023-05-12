@@ -39,5 +39,13 @@ void initGraph(MGraph *g, int num, char *names[], int directed, int edgeValue);
 *  w        ：该边的权值
 */
 void addMGraphEdge(MGraph *g, int x, int y, int w);
+// 访问节点
+void visitMGraphNode(MatrixVertex *node);
+// 清空已访问记录表
+void clearMGraphVisit();
+// 深度遍历，从v号顶点开始遍历
+void DFSMGraphTravel(MGraph *graph, int v);
+// 广度遍历
+void BFSMGraphTravel(MGraph *graph, int v);
 
 #endif //DATASTRUCTURE_MATRIXGRAPH_H

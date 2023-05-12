@@ -44,3 +44,9 @@ add_executable(3-1MatrixGraph 03.Graph/01.MatrixGraph/matrixGraph.c 03.Graph/01.
 
 # 图的邻接表存储方式
 add_executable(3-2AdjacentList 03.Graph/02.AdjacentList/adjacentList.c 03.Graph/02.AdjacentList/adjacentList.h 03.Graph/02.AdjacentList/main.c)
+
+# 图的十字链表存储方式
+add_executable(3-3CrossLinkGraph 03.Graph/03.CrossLinkGraph/crossLinkGraph.c 03.Graph/03.CrossLinkGraph/crossLinkGraph.h 03.Graph/03.CrossLinkGraph/main.c)
+
+# 图的邻接多重表存储方式
+add_executable(3-4AdjacencyMultiList 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.c 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.h 03.Graph/04.AdjacencyMultiList/main.c)

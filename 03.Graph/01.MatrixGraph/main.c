@@ -22,8 +22,14 @@ static void setupMatrixGraph(MGraph *g1) {
 
 int main() {
     MGraph g1;
-	setupMatrixGraph(&g1);
-
-	printf("have %d num!\n", g1.edgeNum);
+    setupMatrixGraph(&g1);
+    printf("have %d num!\n", g1.edgeNum);
+    printf("深度遍历: ");
+    clearMGraphVisit();
+    DFSMGraphTravel(&g1, 0);
+    printf("\n广度遍历: ");
+    clearMGraphVisit();
+    BFSMGraphTravel(&g1, 0);
+    printf("\n");
     return 0;
 }

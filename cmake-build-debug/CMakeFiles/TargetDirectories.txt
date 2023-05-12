@@ -11,5 +11,7 @@
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/2-6HuffmanTree.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/3-1MatrixGraph.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/3-2AdjacentList.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/3-3CrossLinkGraph.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/3-4AdjacencyMultiList.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
