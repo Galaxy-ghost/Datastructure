@@ -50,3 +50,11 @@ add_executable(3-3CrossLinkGraph 03.Graph/03.CrossLinkGraph/crossLinkGraph.c 03.
 
 # 图的邻接多重表存储方式
 add_executable(3-4AdjacencyMultiList 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.c 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.h 03.Graph/04.AdjacencyMultiList/main.c)
+
+# Kruskal算法
+add_executable(3-5Kruskal 03.Graph/05.MiniTree/Kruskal.c 03.Graph/05.MiniTree/Kruskal.h 03.Graph/05.MiniTree/main.c
+                03.Graph/01.MatrixGraph/matrixGraph.c 03.Graph/01.MatrixGraph/matrixGraph.h)
+
+# 拓扑排序
+add_executable(3-6TopologicalSort 03.Graph/06.TopologicalSort/topologicalSort.c 03.Graph/06.TopologicalSort/topologicalSort.h 03.Graph/06.TopologicalSort/main.c
+                03.Graph/02.AdjacentList/adjacentList.c 03.Graph/02.AdjacentList/adjacentList.h)

@@ -622,6 +622,92 @@ build 3-4AdjacencyMultiList: C_EXECUTABLE_LINKER__3-4AdjacencyMultiList_Debug CM
   TARGET_FILE = 3-4AdjacencyMultiList
   TARGET_PDB = 3-4AdjacencyMultiList.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-5Kruskal
+
+
+#############################################
+# Order-only phony target for 3-5Kruskal
+
+build cmake_object_order_depends_target_3-5Kruskal: phony || CMakeFiles/3-5Kruskal.dir
+
+build CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/Kruskal.c.o: C_COMPILER__3-5Kruskal_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/05.MiniTree/Kruskal.c || cmake_object_order_depends_target_3-5Kruskal
+  DEP_FILE = CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/Kruskal.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-5Kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree
+
+build CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/main.c.o: C_COMPILER__3-5Kruskal_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/05.MiniTree/main.c || cmake_object_order_depends_target_3-5Kruskal
+  DEP_FILE = CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-5Kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree
+
+build CMakeFiles/3-5Kruskal.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o: C_COMPILER__3-5Kruskal_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/01.MatrixGraph/matrixGraph.c || cmake_object_order_depends_target_3-5Kruskal
+  DEP_FILE = CMakeFiles/3-5Kruskal.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-5Kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-5Kruskal.dir/03.Graph/01.MatrixGraph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-5Kruskal
+
+
+#############################################
+# Link the executable 3-5Kruskal
+
+build 3-5Kruskal: C_EXECUTABLE_LINKER__3-5Kruskal_Debug CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/Kruskal.c.o CMakeFiles/3-5Kruskal.dir/03.Graph/05.MiniTree/main.c.o CMakeFiles/3-5Kruskal.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/3-5Kruskal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-5Kruskal
+  TARGET_PDB = 3-5Kruskal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-6TopologicalSort
+
+
+#############################################
+# Order-only phony target for 3-6TopologicalSort
+
+build cmake_object_order_depends_target_3-6TopologicalSort: phony || CMakeFiles/3-6TopologicalSort.dir
+
+build CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/topologicalSort.c.o: C_COMPILER__3-6TopologicalSort_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/06.TopologicalSort/topologicalSort.c || cmake_object_order_depends_target_3-6TopologicalSort
+  DEP_FILE = CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/topologicalSort.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-6TopologicalSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort
+
+build CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/main.c.o: C_COMPILER__3-6TopologicalSort_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/06.TopologicalSort/main.c || cmake_object_order_depends_target_3-6TopologicalSort
+  DEP_FILE = CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-6TopologicalSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort
+
+build CMakeFiles/3-6TopologicalSort.dir/03.Graph/02.AdjacentList/adjacentList.c.o: C_COMPILER__3-6TopologicalSort_Debug /Users/galaxy./Desktop/code/DataStructure/03.Graph/02.AdjacentList/adjacentList.c || cmake_object_order_depends_target_3-6TopologicalSort
+  DEP_FILE = CMakeFiles/3-6TopologicalSort.dir/03.Graph/02.AdjacentList/adjacentList.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-6TopologicalSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-6TopologicalSort.dir/03.Graph/02.AdjacentList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-6TopologicalSort
+
+
+#############################################
+# Link the executable 3-6TopologicalSort
+
+build 3-6TopologicalSort: C_EXECUTABLE_LINKER__3-6TopologicalSort_Debug CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/topologicalSort.c.o CMakeFiles/3-6TopologicalSort.dir/03.Graph/06.TopologicalSort/main.c.o CMakeFiles/3-6TopologicalSort.dir/03.Graph/02.AdjacentList/adjacentList.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/3-6TopologicalSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-6TopologicalSort
+  TARGET_PDB = 3-6TopologicalSort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -657,7 +743,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug
 
-build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree 3-1MatrixGraph 3-2AdjacentList 3-3CrossLinkGraph 3-4AdjacencyMultiList
+build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree 3-1MatrixGraph 3-2AdjacentList 3-3CrossLinkGraph 3-4AdjacencyMultiList 3-5Kruskal 3-6TopologicalSort
 
 # =============================================================================
 # Built-in targets
