@@ -58,3 +58,7 @@ add_executable(3-5Kruskal 03.Graph/05.MiniTree/Kruskal.c 03.Graph/05.MiniTree/Kr
 # 拓扑排序
 add_executable(3-6TopologicalSort 03.Graph/06.TopologicalSort/topologicalSort.c 03.Graph/06.TopologicalSort/topologicalSort.h 03.Graph/06.TopologicalSort/main.c
                 03.Graph/02.AdjacentList/adjacentList.c 03.Graph/02.AdjacentList/adjacentList.h)
+
+# 关键路径
+add_executable(3-7KeyPath 03.Graph/07.KeyPath/keyPath.c 03.Graph/07.KeyPath/keyPath.h 03.Graph/07.KeyPath/main.c
+                03.Graph/02.AdjacentList/adjacentList.c 03.Graph/02.AdjacentList/adjacentList.h)

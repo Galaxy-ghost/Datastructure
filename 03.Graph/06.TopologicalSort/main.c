@@ -46,7 +46,7 @@ AGraph *setupAGraph2() {
 }
 
 int main() {
-	AGraph *graph1 = setupAGraph2();
+	AGraph *graph1 = setupAGraph1();
 	int result = TopologicalSort(graph1);
 	printf("\nresult is %d\n", result);
 	releaseAGraph(graph1);
