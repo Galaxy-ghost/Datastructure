@@ -101,6 +101,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "04.Sort/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

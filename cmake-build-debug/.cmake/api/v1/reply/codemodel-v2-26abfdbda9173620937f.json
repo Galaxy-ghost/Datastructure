@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
@@ -32,6 +36,21 @@
 						14,
 						15,
 						16,
+						19
+					]
+				},
+				{
+					"build" : "04.Sort",
+					"jsonFile" : "directory-04.Sort-Debug-a81f2958f713467971ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "04.Sort",
+					"targetIndexes" : 
+					[
 						17,
 						18
 					]
@@ -43,7 +62,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "DataStructure",
 					"targetIndexes" : 
@@ -66,7 +86,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -192,10 +213,17 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "4-1InsertSort::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-4-1InsertSort-Debug-f8aaa4735271a2ecebde.json",
+					"directoryIndex" : 1,
+					"id" : "4-1InsertSort::@b62dcd4d76d0f7f96bec",
+					"jsonFile" : "target-4-1InsertSort-Debug-d1d1f7a4c8d0d88fc129.json",
 					"name" : "4-1InsertSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "4-2SwapSort::@b62dcd4d76d0f7f96bec",
+					"jsonFile" : "target-4-2SwapSort-Debug-5129fe1f2c575039ea03.json",
+					"name" : "4-2SwapSort",
 					"projectIndex" : 0
 				},
 				{

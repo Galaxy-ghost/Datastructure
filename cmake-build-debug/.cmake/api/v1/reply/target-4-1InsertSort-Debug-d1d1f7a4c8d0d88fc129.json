@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "4-1InsertSort"
+			"path" : "04.Sort/4-1InsertSort"
 		}
 	],
 	"backtrace" : 1,
@@ -14,7 +14,7 @@
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"04.Sort/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 67,
+				"line" : 2,
 				"parent" : 0
 			}
 		]
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "4-1InsertSort::@6890427a1f51a3e7e1df",
+	"id" : "4-1InsertSort::@b62dcd4d76d0f7f96bec",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +78,8 @@
 	"nameOnDisk" : "4-1InsertSort",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "04.Sort",
+		"source" : "04.Sort"
 	},
 	"sourceGroups" : 
 	[
