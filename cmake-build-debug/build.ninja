@@ -872,6 +872,55 @@ build 04.Sort/4-2SwapSort: C_EXECUTABLE_LINKER__4-2SwapSort_Debug 04.Sort/CMakeF
   TARGET_FILE = 04.Sort/4-2SwapSort
   TARGET_PDB = 4-2SwapSort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-3HeapSort
+
+
+#############################################
+# Order-only phony target for 4-3HeapSort
+
+build cmake_object_order_depends_target_4-3HeapSort: phony || 04.Sort/CMakeFiles/4-3HeapSort.dir
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/heapSort.c.o: C_COMPILER__4-3HeapSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/03.HeapSort/heapSort.c || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/heapSort.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/main.c.o: C_COMPILER__4-3HeapSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/03.HeapSort/main.c || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/sortHelper.c.o: C_COMPILER__4-3HeapSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/sortHelper.c || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-3HeapSort.dir/sortHelper.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/miniHeap.c.o: C_COMPILER__4-3HeapSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/03.HeapSort/miniHeap.c || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/miniHeap.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-3HeapSort
+
+
+#############################################
+# Link the executable 04.Sort/4-3HeapSort
+
+build 04.Sort/4-3HeapSort: C_EXECUTABLE_LINKER__4-3HeapSort_Debug 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/heapSort.c.o 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/main.c.o 04.Sort/CMakeFiles/4-3HeapSort.dir/sortHelper.c.o 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/miniHeap.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-3HeapSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.Sort/4-3HeapSort
+  TARGET_PDB = 4-3HeapSort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -903,6 +952,8 @@ build 4-1InsertSort: phony 04.Sort/4-1InsertSort
 
 build 4-2SwapSort: phony 04.Sort/4-2SwapSort
 
+build 4-3HeapSort: phony 04.Sort/4-3HeapSort
+
 # =============================================================================
 # Folder targets.
 
@@ -918,7 +969,7 @@ build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binar
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort
 
-build 04.Sort/all: phony 04.Sort/4-1InsertSort 04.Sort/4-2SwapSort
+build 04.Sort/all: phony 04.Sort/4-1InsertSort 04.Sort/4-2SwapSort 04.Sort/4-3HeapSort
 
 # =============================================================================
 # Built-in targets

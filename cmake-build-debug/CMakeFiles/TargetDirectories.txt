@@ -20,5 +20,6 @@
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-1InsertSort.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-2SwapSort.dir
+/Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-3HeapSort.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/edit_cache.dir
 /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/rebuild_cache.dir

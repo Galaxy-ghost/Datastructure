@@ -36,7 +36,7 @@
 						14,
 						15,
 						16,
-						19
+						20
 					]
 				},
 				{
@@ -52,7 +52,8 @@
 					"targetIndexes" : 
 					[
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -87,7 +88,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					]
 				}
 			],
@@ -224,6 +226,13 @@
 					"id" : "4-2SwapSort::@b62dcd4d76d0f7f96bec",
 					"jsonFile" : "target-4-2SwapSort-Debug-5129fe1f2c575039ea03.json",
 					"name" : "4-2SwapSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "4-3HeapSort::@b62dcd4d76d0f7f96bec",
+					"jsonFile" : "target-4-3HeapSort-Debug-a0cea38decd2d6b019e1.json",
+					"name" : "4-3HeapSort",
 					"projectIndex" : 0
 				},
 				{
