@@ -921,6 +921,49 @@ build 04.Sort/4-3HeapSort: C_EXECUTABLE_LINKER__4-3HeapSort_Debug 04.Sort/CMakeF
   TARGET_FILE = 04.Sort/4-3HeapSort
   TARGET_PDB = 4-3HeapSort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-4MergeSort
+
+
+#############################################
+# Order-only phony target for 4-4MergeSort
+
+build cmake_object_order_depends_target_4-4MergeSort: phony || 04.Sort/CMakeFiles/4-4MergeSort.dir
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/main.c.o: C_COMPILER__4-4MergeSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/04.MergeSort/main.c || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/mergeSort.c.o: C_COMPILER__4-4MergeSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/04.MergeSort/mergeSort.c || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/mergeSort.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/sortHelper.c.o: C_COMPILER__4-4MergeSort_Debug /Users/galaxy./Desktop/code/DataStructure/04.Sort/sortHelper.c || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort/CMakeFiles/4-4MergeSort.dir/sortHelper.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-4MergeSort
+
+
+#############################################
+# Link the executable 04.Sort/4-4MergeSort
+
+build 04.Sort/4-4MergeSort: C_EXECUTABLE_LINKER__4-4MergeSort_Debug 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/main.c.o 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/mergeSort.c.o 04.Sort/CMakeFiles/4-4MergeSort.dir/sortHelper.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = 04.Sort/CMakeFiles/4-4MergeSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.Sort/4-4MergeSort
+  TARGET_PDB = 4-4MergeSort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -954,6 +997,8 @@ build 4-2SwapSort: phony 04.Sort/4-2SwapSort
 
 build 4-3HeapSort: phony 04.Sort/4-3HeapSort
 
+build 4-4MergeSort: phony 04.Sort/4-4MergeSort
+
 # =============================================================================
 # Folder targets.
 
@@ -969,7 +1014,7 @@ build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binar
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug/04.Sort
 
-build 04.Sort/all: phony 04.Sort/4-1InsertSort 04.Sort/4-2SwapSort 04.Sort/4-3HeapSort
+build 04.Sort/all: phony 04.Sort/4-1InsertSort 04.Sort/4-2SwapSort 04.Sort/4-3HeapSort 04.Sort/4-4MergeSort
 
 # =============================================================================
 # Built-in targets
