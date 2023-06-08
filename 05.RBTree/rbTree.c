@@ -244,7 +244,7 @@ static void deleteFixup(RBTree* tree, RBNode* x, RBNode* parent)
                 // case1 x的兄弟是红色
                 w->color = BLACK;
                 parent->color = RED;
-                leftRotate(tree, parent);
+                leftRotate(tree, parent); // 转化为兄弟节点是黑的情况
                 w = parent->right;
             }
             // 兄弟节点都是黑色
@@ -321,7 +321,7 @@ static void deleteRBNode(RBTree* tree, RBNode* node)
             y = y->left;
         }
     }
-    // 真正删除的节点就找到了，然后开始寻找替换节点
+    // 真正删除的节点找到，开始寻找替换节点
     if (y->left) {
         x = y->left;
     }
@@ -342,7 +342,7 @@ static void deleteRBNode(RBTree* tree, RBNode* node)
         y->parent->right = x;
     }
     // 更新有左右孩子的根节点的值
-    if (y != node) {
+    if (y != node) { // 说明度为2
         node->key = y->key;
     }
     // 如果删除的节点是黑色，那么需要调整
