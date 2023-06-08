@@ -66,3 +66,6 @@ add_executable(3-7KeyPath 03.Graph/07.KeyPath/keyPath.c 03.Graph/07.KeyPath/keyP
 # 排序
 add_subdirectory(04.Sort)
 
+# 红黑树
+add_executable(5-1RBTree 05.RBTree/rbTree.c 05.RBTree/rbTree.h 05.RBTree/main.c)
+
