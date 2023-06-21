@@ -69,3 +69,5 @@ add_subdirectory(04.Sort)
 # 红黑树
 add_executable(5-1RBTree 05.RBTree/rbTree.c 05.RBTree/rbTree.h 05.RBTree/main.c)
 
+# B树
+add_executable(6-1diskTree 06.DiskTree/diskTree.c 06.DiskTree/diskTree.h 06.DiskTree/main.c)

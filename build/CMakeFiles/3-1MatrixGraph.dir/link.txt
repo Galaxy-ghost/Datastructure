@@ -1,0 +1,1 @@
+/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/matrixGraph.c.o" "CMakeFiles/3-1MatrixGraph.dir/03.Graph/01.MatrixGraph/main.c.o" -o 3-1MatrixGraph 

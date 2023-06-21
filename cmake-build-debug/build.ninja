@@ -788,6 +788,43 @@ build 5-1RBTree: C_EXECUTABLE_LINKER__5-1RBTree_Debug CMakeFiles/5-1RBTree.dir/0
   TARGET_FILE = 5-1RBTree
   TARGET_PDB = 5-1RBTree.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-1diskTree
+
+
+#############################################
+# Order-only phony target for 6-1diskTree
+
+build cmake_object_order_depends_target_6-1diskTree: phony || CMakeFiles/6-1diskTree.dir
+
+build CMakeFiles/6-1diskTree.dir/06.DiskTree/diskTree.c.o: C_COMPILER__6-1diskTree_Debug /Users/galaxy./Desktop/code/DataStructure/06.DiskTree/diskTree.c || cmake_object_order_depends_target_6-1diskTree
+  DEP_FILE = CMakeFiles/6-1diskTree.dir/06.DiskTree/diskTree.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-1diskTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-1diskTree.dir/06.DiskTree
+
+build CMakeFiles/6-1diskTree.dir/06.DiskTree/main.c.o: C_COMPILER__6-1diskTree_Debug /Users/galaxy./Desktop/code/DataStructure/06.DiskTree/main.c || cmake_object_order_depends_target_6-1diskTree
+  DEP_FILE = CMakeFiles/6-1diskTree.dir/06.DiskTree/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-1diskTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-1diskTree.dir/06.DiskTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-1diskTree
+
+
+#############################################
+# Link the executable 6-1diskTree
+
+build 6-1diskTree: C_EXECUTABLE_LINKER__6-1diskTree_Debug CMakeFiles/6-1diskTree.dir/06.DiskTree/diskTree.c.o CMakeFiles/6-1diskTree.dir/06.DiskTree/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/6-1diskTree.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-1diskTree
+  TARGET_PDB = 6-1diskTree.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1044,7 +1081,7 @@ build 4-4MergeSort: phony 04.Sort/4-4MergeSort
 #############################################
 # Folder: /Users/galaxy./Desktop/code/DataStructure/cmake-build-debug
 
-build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree 3-1MatrixGraph 3-2AdjacentList 3-3CrossLinkGraph 3-4AdjacencyMultiList 3-5Kruskal 3-6TopologicalSort 3-7KeyPath 5-1RBTree 04.Sort/all
+build all: phony DataStructure 1-1seqList 1-2linkList 1-3stack 1-4queue 2-1binaryTree 2-2threaderTree 2-3binarySearchTree 2-4AVLTree 2-5UnionFindSet 2-6HuffmanTree 3-1MatrixGraph 3-2AdjacentList 3-3CrossLinkGraph 3-4AdjacencyMultiList 3-5Kruskal 3-6TopologicalSort 3-7KeyPath 5-1RBTree 6-1diskTree 04.Sort/all
 
 # =============================================================================
 
