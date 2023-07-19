@@ -1,0 +1,12 @@
+# Cmake cache
+build/
+cmake-build-debug/
+
+# MacOs cache
+.DS_Store
+
+# idea cache
+.idea/
+
+# cache
+.cache/
