@@ -1,1 +1,0 @@
-/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/6-1diskTree.dir/06.DiskTree/diskTree.c.o" "CMakeFiles/6-1diskTree.dir/06.DiskTree/main.c.o" -o 6-1diskTree 

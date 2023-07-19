@@ -1,1 +1,0 @@
-/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/1-3stack.dir/01.linear/03.stack/main.c.o" "CMakeFiles/1-3stack.dir/01.linear/03.stack/arrayStack.c.o" "CMakeFiles/1-3stack.dir/01.linear/03.stack/linkStack.c.o" -o 1-3stack 

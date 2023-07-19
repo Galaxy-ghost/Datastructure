@@ -1,1 +1,0 @@
-/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/1-4queue.dir/01.linear/04.queue/arrayQueue.c.o" "CMakeFiles/1-4queue.dir/01.linear/04.queue/linkQueue.c.o" "CMakeFiles/1-4queue.dir/01.linear/04.queue/main.c.o" -o 1-4queue 
